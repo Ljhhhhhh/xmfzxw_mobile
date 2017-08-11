@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f1a17;
+    padding-bottom: 50px;
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.header i {
+    line-height: 40px;
+    color: #FFF;
+    float: left;
+    text-indent: 0.3em;
+}
+
+.header a {
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    background-image: url(../../../images/wap/v1/user&search.png);
+    background-repeat: no-repeat;
+    background-position: -35px 0;
+    display: block;
+    right: 10px;
+    top: 20%;
+}
+
+.swiper-container {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+}
+
+#img img {
+    width: 100%;
+    height: auto;
+}
+
+.bt {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.footer {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    z-index: 99;
+    left: 50%;
+}
+
+.footer a {
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-image: url(../../../images/wap/v1/08btn.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 70px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: bottom;
+}

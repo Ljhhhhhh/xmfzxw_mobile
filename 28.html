@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/wap/v1/common.css">
+    <link rel="stylesheet" href="API/Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/wap/v1/28.css">
+    <link rel="stylesheet" href="css/wap/v1/LArea.css">
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=931d081122d6c5ff0b32ed70b413d412"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="header">
+        <div class="headerleft pl">
+            <a href="" class="back"><i class="icon-angle-left"></i></a>
+            <a href="" class="index"><img src="images/wap/v1/logo.png" alt=""></a>
+        </div>
+        <div class="headerright pr">
+            <div class="search">
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="search-menu" id="search-menu">
+        <ul>
+            <li><a href="">装修图库</a></li>
+            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="">装修攻略</a></li>
+            <li><a href="">装修公司</a></li>
+            <li><a href="">首页</a></li>
+            <li><a href="">免费验房</a></li>
+            <li><a href="">免费户型设计</a></li>
+            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="">免费报价</a></li>
+        </ul>
+    </div>
+    <!--头部-->
+    <!--    banner start-->
+    <section class="banner">
+        <img src="images/wap/v1/free_banner.png" alt="">
+    </section>
+    <!--    banner end-->
+    <!--   form start-->
+    <form action="" id="form">
+        <p>
+            <label for="name"><strong>*</strong>姓名：</label>
+            <input type="text" placeholder="请输入您的名字" id='name'>
+        </p>
+        <p>
+            <label for="phone"><strong>*</strong>手机：</label>
+            <input type="number" placeholder="请输入您的手机号" id="phone">
+        </p>
+        <p>
+            <label for="type">类型：</label>
+            <select name="type" id="type">
+                <option value="1">公寓</option>
+                <option value="2">私房</option>
+                <option value="3">办公室</option>
+            </select>
+        </p>
+        <p class="content-block">
+            <label for="address">地区：</label>
+            <input id="demo1" type="text" readonly="" placeholder="城市选择特效" value="请填写地址">
+            <input id="value1" type="hidden" value="20,234,504">
+        </p>
+        <input type="hidden" value="" id="map_address">
+        <p>
+            <button type="submit" id="submit">免费获取3套设计方案</button>
+        </p>
+    </form>
+    <div class="dot_line"></div>
+    <!--   form end-->
+    <!--    banner three-->
+    <section class="service">
+        <p>在小蜜蜂装修网，您还可以享受以下服务：</p>
+        <img src="images/wap/v1/28-banner-1.png" alt="">
+        <img src="images/wap/v1/28-banner-2.png" alt="">
+        <img src="images/wap/v1/28-banner-3.png" alt="">
+    </section>
+    <!--    banner three-->
+    <div class="dot_line"></div>
+    <!--    用户滚动start-->
+    <section class="user_list">
+        <h2>已有<strong>23655</strong>位业主申请设计服务</h2>
+        <div class="list_box" id="list_box">
+            <ul>
+                <li><span>范**</span><span>131********</span><span>成功获取3套设计方案</span></li>
+                <li><span>丁**</span><span>187********</span><span>成功获取3套设计方案</span></li>
+                <li><span>高**</span><span>138********</span><span>成功获取3套设计方案</span></li>
+                <li><span>金**</span><span>134********</span><span>成功获取3套设计方案</span></li>
+                <li><span>王**</span><span>135********</span><span>成功获取3套设计方案</span></li>
+                <li><span>柴**</span><span>180********</span><span>成功获取3套设计方案</span></li>
+                <li><span>李**</span><span>132********</span><span>成功获取3套设计方案</span></li>
+                <li><span>吴**</span><span>130********</span><span>成功获取3套设计方案</span></li>
+                <li><span>张**</span><span>186********</span><span>成功获取3套设计方案</span></li>
+                <li><span>余**</span><span>152********</span><span>成功获取3套设计方案</span></li>
+                <li><span>何**</span><span>188********</span><span>成功获取3套设计方案</span></li>
+            </ul>
+        </div>
+        <div class="dot_line"></div>
+    </section>
+    <!--    用户滚动end-->
+    <section class="details">
+        <h4>只需<strong>3步</strong><p>让您立刻看到未来家的样子</p></h4>
+        <ul class="flex">
+            <li>
+                <img src="images/wap/v1/28-1-1.png" alt="">
+                <p><strong>1</strong>免费上门量房</p>
+            </li>
+            <li>
+                <img src="images/wap/v1/28-1-2.png" alt="">
+                <p><strong>2</strong>获取设计报价</p>
+            </li>
+            <li>
+                <img src="images/wap/v1/28-1-3.png" alt="">
+                <p><strong>3</strong>优选最佳方案</p>
+            </li>
+        </ul>
+        <div class="dot_line"></div>
+        <h4>好装修源于<strong>好设计</strong></h4>
+        <img src="images/wap/v1/28-2.png" alt="">
+        <div class="dot_line"></div>
+        <h4><strong>3套设计方案全面PK</strong></h4>
+        <h5><span class="orange">空间布局</span>PK，让家更大</h5>
+        <img src="images/wap/v1/28-3.png" alt="">
+        <div class="dot_line"></div>
+        <h5><span class="orange">空间布局</span>PK，让家更美</h5>
+        <img src="images/wap/v1/28-4.png" alt="">
+        <div class="dot_line"></div>
+        <h5><span class="orange">装修预算</span>PK，装修更省</h5>
+        <img src="images/wap/v1/28-5.png" alt="">
+    </section>
+    <section class="btn">
+        <p class="btn_go">立即获取3套设计方案</p>
+    </section>
+    <!--页脚-->
+    <div class="clear"></div>
+    <div class="footer">
+        <ul>
+            <li><a href="" class="noborder on">触屏版</a></li>
+            <li><a href="">电脑版</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">常见问题</a></li>
+        </ul>
+        <div class="footerwz">手机小蜜蜂：<a href="http://m.xmfzxw.com">m.xmfzxw.com</a></div>
+    </div>
+    <!--页脚-->
+    <div id='container' style="display: none"></div>
+    <!--高德地图API必须，勿删-->
+</body>
+
+</html>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+<script src="js/wap/v1/LAreaData1.js" type="text/javascript"></script>
+<script src="js/wap/v1/LAreaData2.js" type="text/javascript"></script>
+<script src="js/wap/v1/LArea.js" type="text/javascript"></script>
+<script src="js/wap/v1/common.js" type="text/javascript"></script>
+<script src="js/wap/v1/28.js" type="text/javascript"></script>
+<!--地图定位插件start-->
+<script>
+    var map, geolocation;
+    //加载地图，调用浏览器定位服务
+    map = new AMap.Map('container', {
+        resizeEnable: true
+    });
+    map.plugin('AMap.Geolocation', function() {
+        geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true,
+            timeout: 10000,
+            buttonOffset: new AMap.Pixel(10, 20),
+            zoomToAccuracy: true,
+            buttonPosition: 'RB',
+        });
+        map.addControl(geolocation);
+        geolocation.getCurrentPosition();
+        AMap.event.addListener(geolocation, 'complete', onComplete); //返回定位信息
+        AMap.event.addListener(geolocation, 'error', onError); //返回定位出错信息
+    });
+    //解析定位结果
+    function onComplete(data) {
+        //alert(data.formattedAddress);
+        $("#demo1").val(data.formattedAddress);
+        $("#map_address").val(data.formattedAddress);
+    }
+    //解析定位错误信息
+    function onError(data) {}
+</script>
+<!--地图定位插件end-->

@@ -1,0 +1,253 @@
+    .searchimg {
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid #008b50;
+        margin: 0 auto;
+    }
+    
+    .searchimg input[type="text"] {
+        height: 100%;
+        border: 0;
+        color: #a6a6a4;
+        outline: none;
+        line-height: 40px;
+        font-size: 14px;
+        text-indent: 1em;
+        width: 195px;
+        overflow-x: scroll;
+    }
+    
+    .searchimg input[type="submit"] {
+        height: 100%;
+        width: 120px;
+        background-color: #008b50;
+        padding: 0;
+        border: none;
+        float: right;
+        color: #FFF;
+        border-radius: 0px;
+        -webkit-appearance: none;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
+    .clear {
+        clear: both;
+        width: 100%;
+    }
+    /*搜索知识*/
+    
+    .xgtcircle {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px
+    }
+    
+    .xgtcircle dl {
+        width: 20%;
+        height: 50%;
+        margin-left: 10%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 15px
+    }
+    /*.xgtcircle dl:last-child{margin-right: 4%;}*/
+    
+    .xgtcircle dl dt {
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+    }
+    
+    .xgtcircle dl dt img {
+        width: 100%;
+    }
+    
+    .xgtcircle dl dd {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .xgtcircle a dl dd {
+        color: #333;
+    }
+    /*栏目*/
+.zxrj{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 30px;
+}
+.zxrj span{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 12px;
+    float: right;
+    color: #666;
+}
+.zxrj span em{
+    color: #009a59;
+    font-style: normal;
+}
+.zxzs{
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.zxzs img{
+    width: 100%;
+    height: auto;
+}
+.yhxx{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.yhxx .yhtx{
+    float: left;
+}
+.yhxx .yhtx img{
+    width: 50px;
+    height: 50px;
+}
+.yhxx .yhsm{
+    padding-top: 8px;
+    float: left;
+    color: #FFF;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.yhxx .yhsm p:nth-child(2){
+    font-size: 0.75em;
+}
+.gkxx{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 0 5px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+a.jinru{
+    display: block;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #eee;
+    color: #333;
+    margin: 15px auto;
+}
+/*装修展示*/
+.xzx{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.zxlc{
+    width: 90%;
+    height: auto;
+    margin: 10px auto 15px;
+    display: block;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #999;
+}
+.xzxlist{
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+.xzxlist .listimg{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.xzxlist .listimg img{
+    width: 100%;
+    height: auto;
+}
+.listsm{
+    width: 65%;
+    height: auto;
+}
+.listms h6{
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.listms p{
+    font-size: 12px;
+}
+.jrxzx{
+    display: block;
+    width: 95%;
+    height: 30px;
+    margin: 15px auto;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    line-height: 30px;
+    
+}
+/*学装修*/
+.wdlist{
+    width: 95%;
+    height: auto;
+    margin: 10px auto 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+}
+.wdlist a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.zxwd{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.wdimg{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.wdimg img{
+    width: 100%;
+    height: auto;
+}
+.wdxx{
+    width: 60%;
+    height: auto;
+    margin-left: 25%;
+}
+.wdxx p{
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+}
+.wdxg{
+    width: auto;
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+}
+.wdxg em{
+    font-style: normal;
+}
+/*装修问答*/

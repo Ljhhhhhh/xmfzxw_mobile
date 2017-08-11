@@ -1,0 +1,137 @@
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*banner*/
+
+form {
+    width: 95%;
+    height: auto;
+    margin: 15px auto;
+}
+
+input[type="text"],
+input[type="number"] {
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+}
+
+form select {
+    background-color: transparent;
+    background-image: url(../../../images/wap/v1/bjsq/sj.png);
+    background-repeat: no-repeat;
+    background-position: 95% 45%;
+    background-size: 0.8em;
+    text-indent: 1em;
+    border-radius: 0px;
+    position: relative;
+    color: #999;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+#provinceDiv,
+#cityDiv {
+    width: 48%;
+    float: left;
+}
+
+#cityDiv {
+    margin-left: 4%;
+}
+
+#zxlx {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #009a59;
+    color: #fff;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: none;
+}
+
+p.cn {
+    color: #666;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 1.5em;
+}
+
+p.cn i {
+    color: #009a59;
+}
+
+p.cn em {
+    color: #fd2424;
+    font-style: normal;
+}
+
+
+/*表单*/
+
+.wenti {
+    width: 100%;
+    height: auto;
+}
+
+.wenti img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*问题*/
+
+#yishenqing {
+    width: auto;
+    height: 30px;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+#yishenqing p {
+    width: auto;
+    line-height: 30px;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+#yishenqing p i {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/*已申请*/

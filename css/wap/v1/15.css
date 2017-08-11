@@ -1,0 +1,133 @@
+.navigation {
+    width: 100%;
+    line-height: 30px;
+    text-indent: 1em;
+    margin: 10px 0;
+}
+.navigation span {
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 0;
+}
+.navigation span a {
+    display: block;
+    line-height: 30px;
+    color: #666;
+}
+.navigation em {
+    text-indent: 0;
+    display: inline-block;
+    padding-right: 5px;
+    line-height: 30px;
+    color: #666;
+    font-style: normal;
+}
+.article{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+h5.caption{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+}
+p.label{
+    line-height: 25px;
+    font-size: 14px;
+    color: #999;
+}
+p.label span{
+    display: inline-block;
+    padding-right: 10px;
+}
+p.intro{
+    text-indent: 1em;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #EEE;
+    margin: 10px auto;
+}
+div.content{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 15px auto;
+}
+div.content p{
+    text-indent: 2em;
+}
+div.content img{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px auto 20px;
+}
+.banner_dd{
+    width: 100%;
+    height:auto;
+    margin: 15px auto;
+}
+.banner_dd img{
+    width: 100%;
+    height: auto;
+}
+.recommend{
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+}
+.recommend p.tab{
+    line-height: 30px;
+}
+.recommend p.tab span{
+    display: inline-block;
+    padding: 0 10px;
+    -webkit-background: linear-gradient(to bottom,#999,#999) no-repeat right;
+    background: linear-gradient(to bottom,#999,#999) no-repeat right;
+    -webkit-background-size: 1px 50%;
+    background-size: 1px 50%;
+}
+.recommend p.tab span:last-child{
+    background: none;
+}
+.recommend p.tab span.on{
+    color: #009944;
+}
+.recommend .like,.recommend .hot{
+    width: 100%;
+    height: auto;
+}
+.recommend .hot{
+    display: none;
+}
+.recommend .like a ,.recommend .hot a{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #EEE;
+    padding: 10px 0;
+}
+.recommend .like a img ,.recommend .hot a img{
+    width: 110px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+}
+.recommend .like a h5 ,.recommend .hot a h5{
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recommend .like a p,.recommend .hot a p {
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

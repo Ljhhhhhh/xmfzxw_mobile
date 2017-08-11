@@ -1,0 +1,149 @@
+.celan{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-bottom: 15px;
+    position: relative;
+}
+#leibie{
+    display: inline-block;
+    font-style: normal;
+    height: 40px;
+    width: 30%;
+    text-indent: 1em;
+    line-height: 40px;
+    color: #666;
+}
+#btn{
+    width: 30%;
+    height: 40px;
+    background-color: #008b50;
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    /* No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+}
+#xuanxiang{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    background-color: #333;
+    right: 0;
+    text-indent: 0.5em;
+    padding: 10px 0;
+    display: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    /* No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+}
+#xuanxiang>ul>li{
+    color: #2dfca3;
+    line-height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#xuanxiang>ul>li>ul{
+    display: none;
+}
+#xuanxiang ul li ul li{
+    color: #ccc;
+    font-size: 1em;
+    line-height: 20px;
+    text-indent: 1em;
+}
+/*侧栏*/
+.list {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.list li {
+    padding: 20px 15px;
+    font-size: 14px;
+    height: 85px;
+    overflow: hidden;
+}
+
+.list-img {
+    float: left;
+    width: 100px;
+    height: 80px;
+}
+
+.list-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.list h6 {
+    font-size: 1em;
+    color: #333;
+    text-indent: 1em;
+}
+
+.list p {
+    font-size: 0.75em;
+    display: inline-block;
+    padding-right: 1em;
+    float: left;
+    width: 56%;
+    padding-left: 15px;
+    line-height: 20px;
+    padding-top: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.list li:nth-child(odd){
+    background-color: #eee;
+}
+.kongzhi{
+    height: 40px;
+    width: 92%;
+    margin: 0 auto 20px;
+}
+.kongzhi .page{
+    width: 28%;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin: 0 1%;
+}
+.kongzhi .page em,.kongzhi .page span{
+    font-style: normal;
+}
+.kongzhi .page em{
+    padding-left: 39%;
+}
+.kongzhi .pre,.kongzhi .next{
+    background-color: #009a59;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 35%;
+    color: #fff;
+}
+.kongzhi .pre a,.kongzhi .next a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+/*控制*/

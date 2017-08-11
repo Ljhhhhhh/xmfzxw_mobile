@@ -1,0 +1,142 @@
+.qiehuan{
+    width: 95%;
+    height: 40px;
+    margin: 15px auto;
+    line-height: 40px;
+}
+.qiehuan span{
+    width: 48%;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+}
+.qiehuan span.on{
+    color: #FFF;
+    background-color: #7DC39F;
+    border: none;
+}
+.qiehuan span.on:after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 21px;
+    left: 44%;
+    background-color: #7dc39f;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: -1;
+}
+/*切换*/
+.jzsj,.zxfg{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.jzsj li ,.zxfg li{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    padding:10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.jzsj li a ,.zxfg li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.jzsj li .imgbox,.zxfg li .imgbox{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    float: left;
+}
+.jzsj li .imgbox img ,.zxfg li .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.wtxx{
+    float: left;
+    margin-left: 60px;
+}
+.wtxx span{
+    color: #999;
+    font-size: 0.5em;
+    line-height: 20px;
+}
+.wtxx p{
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+}
+.wtxx em{
+    font-size: 0.75em;
+    font-style: normal;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border-left: 1px solid #afa9a9;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.wtxx em:nth-of-type(1){
+    border: none;
+    padding-left: 0px;
+}
+.jzsj li .time ,.zxfg li .time{
+    position: absolute;
+    width: 80px;
+    right: 0;
+    font-size: 0.75em;
+}
+.zxfg{
+    display: none;
+}
+/*家装设计、装修风格*/
+.kongzhi{
+    height: 40px;
+    width: 92%;
+    margin: 0 auto 20px;
+}
+.kongzhi .page{
+    width: 28%;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    margin: 0 1%;
+}
+.kongzhi .page em,.kongzhi .page span{
+    font-style: normal;
+}
+.kongzhi .page em{
+    padding-left: 39%;
+}
+.kongzhi .pre,.kongzhi .next{
+    background-color: #009a59;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 35%;
+    color: #fff;
+}
+.kongzhi .pre a,.kongzhi .next a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+}
+/*控制*/

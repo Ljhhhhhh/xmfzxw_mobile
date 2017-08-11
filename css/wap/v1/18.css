@@ -1,0 +1,252 @@
+.header {
+    background-color: #FFF!important;
+}
+
+/*头部*/
+
+.yidedaan {
+    width: 100%;
+    height: 30px;
+    background-color: #dededc;
+    line-height: 30px;
+    text-indent: 2em;
+    color: #666;
+    font-size: 12px;
+}
+.yidedaan span {
+    color: #008A4F;
+}
+
+/*已答*/
+
+.searchimg {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #008b50;
+    margin: 0 auto;
+}
+.searchimg input[type="text"] {
+    height: 100%;
+    border: 0;
+    color: #a6a6a4;
+    outline: none;
+    line-height: 40px;
+    font-size: 14px;
+    text-indent: 1em;
+    width: 220px;
+    overflow-x: scroll;
+}
+.searchimg input[type="submit"] {
+    height: 100%;
+    width: 120px;
+    background-color: #008b50;
+    padding: 0;
+    border: none;
+    float: right;
+    color: #FFF;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    line-height: 40px;
+    font-size: 16px;
+}
+.searchimg {
+    background-color: #FFF;
+}
+.clear {
+    clear: both;
+    width: 100%;
+}
+
+/*搜索知识*/
+.question{
+    width: 95%;
+    height: 80px;
+    margin: 15px auto 0;
+    background-color: #FFF;
+    box-sizing: padding-box;   
+    text-indent: 0.5em;
+    border: 1px solid #eee;
+}
+.question i{
+    color: #ccc;
+}
+.question p{
+    color: 333;
+    line-height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.question em{
+    color: #b5b4b4;
+    font-size: 0.75em;
+    font-style: normal;
+    display: inline-block;
+    line-height: 20px;
+    width: auto;
+    padding-right:5px;
+    height: auto;
+    text-align: center;
+    border-left: 1px solid #eee;
+}
+.question em:nth-child(2){
+    border: none;
+    margin-left: 15px;
+}
+span.time{
+    color: #b5b4b4;
+    font-size: 0.75em;
+    display: inline-block;
+    line-height: 20px;
+    height: auto;
+    float: right;
+    margin-right: 0.75em;
+}
+/*问题*/
+.answer{
+    border: 1px solid #eee;
+    width: 95%;
+    height: auto;
+    margin: 15px auto 0;
+    font-size: 16px;
+    padding:5px 15px;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+.answer h4{
+    color: #333;
+    line-height: 30px;
+    text-indent: 1em;
+}
+.answer p{
+    font-size: .75em;
+    color: #666;
+    text-indent: 1em;
+    line-height: 20px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+}
+.answer em{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 0.75em;
+}
+.answer span{
+    float: right;
+    padding-right: 15px;
+    color: #999;
+    font-size: 0.75em;
+}
+/*答案*/
+.hot {
+    width: 95%;
+    margin: 20px auto;
+    height: auto;
+    border: 1px solid #eee;
+    padding-bottom: 15px;
+    background-color: #FFF;
+}
+
+.hot h5 {
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-indent: 1em;
+    padding-top: 10px;
+}
+
+.hot p{
+    width: 80%;
+    line-height: 22px;
+    text-indent: 3em;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.hot p a{
+    color: #de2121;
+}
+.hot p:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #de2121;
+    left: 30px;
+    top: 40%;
+}
+.hot img{
+    display: inline-block;
+    width: 24px;
+    height: auto;
+    position: relative;
+    top: -5px;
+    right: 10px;
+}
+/*热门*/
+.bieren{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid #eee;
+    padding: 5px 0px;
+}
+.bieren h4{
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-indent: 1em;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.bieren p{
+    width: 93%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    padding:5px;
+    border-bottom: 1px solid #eee;
+}
+.bieren p span{
+    float: right;
+    color: #999;
+}
+/*别人也在问*/
+.tuijian{
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    background-color: #FFF;
+    border: 1px solid #eee;
+}
+.tuijian h4{
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-indent: 1em;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.tuijian span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    text-indent: 2em;
+}
+.tuijian span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*相关推荐*/

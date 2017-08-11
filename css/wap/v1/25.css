@@ -1,0 +1,169 @@
+table {
+    border-collapse: collapse;
+}
+p.miaoshu{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "幼圆";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+    line-height: 30px;
+    color: #666;
+}
+p.miaoshu span{
+    display: inline-block;
+}
+p.miaoshu span:after{
+    content: "·";
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px;
+}
+p.miaoshu span:last-child:after{
+    display: none;
+}
+p.zxgs{
+    text-align: center;
+    font-family: "幼圆";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 10px 0 20px;
+    color: #666;
+}
+.zpzs {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zpzs th {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.zpzs tr {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+}
+
+.zpzs tr td {
+    width: 25%;
+    display: inline-table;
+    height: 100%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: #666;
+}
+
+.zpzs tr td.zpbt {
+    color: #333;
+}
+
+.zpzs tr td.threetd {
+    width: 75%;
+    line-height: 20px;
+}
+.zpzs tr td.threetd p{
+    width: 90%;
+    margin: 0 auto;
+}
+.imgbox {
+    width: 95%;
+    height: auto;
+    margin: 0 auto 15px;
+}
+
+.imgbox img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+p.xgt_name{
+    font-family: "幼圆";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    text-indent: 1em;
+    color: #666;
+    line-height: 30px;
+}
+.banner_dd{
+    width: 100%;
+    height:auto;
+    margin: 15px auto;
+}
+.banner_dd img{
+    width: 100%;
+    height: auto;
+}
+ul.design_case_more{
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+ul.design_case_more li{
+    width: 45%;
+    height: auto;
+    padding: 0 2%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+ul.design_case_more li:first-child{
+    border-right: 1px solid #CCC;
+}
+ul.design_case_more li>span{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+ul.design_case_more li:nth-child(2)>span{
+    text-align: right;
+}
+ul.design_case_more li>span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #666;
+}
+ul.design_case_more li img{
+    width: 100%;
+    height: auto;
+}
+ul.design_case_more li p{
+    position: absolute;
+    line-height: 25px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    bottom: 0;
+    left: 0;
+    text-indent: 1em;
+    width: 100%;
+    background-color: #FFF;
+    opacity: 0.7;
+    filter: opacity(70);
+}
+ul.design_case_more li p span{
+    font-size: 14px;
+    color: #333;
+}
+ul.design_case_more li p em{
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    text-indent: 0;
+    padding-left: 10px;
+}

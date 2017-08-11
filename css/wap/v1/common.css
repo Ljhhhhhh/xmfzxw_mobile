@@ -1,0 +1,307 @@
+﻿/*初始化*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 41px!important;
+    padding-bottom: 40px!important;
+}
+
+.prl {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+li {
+    list-style-type: none;
+}
+
+.pr {
+    padding-right: 15px;
+}
+
+.pl {
+    padding-left: 15px;
+}
+
+.hr {
+    background-color: #cfcfcf;
+    height: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #211916;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+/*公共头部*/
+
+.header {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 40px;
+    position: fixed;
+    top: 0px;
+    background-color: #FFF;
+    z-index: 99;
+}
+
+.header .headerright .user a {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    margin-top: 8px;
+    background-image: url(../../../images/wap/v1/user&search.png);
+    background-position: 0px 0;
+}
+
+.header .headerright .search>a {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    margin-top: 8px;
+    background-image: url(../../../images/wap/v1/user&search.png);
+    background-position: 24px 0;
+}
+
+.headerleft {
+    float: left;
+    height: 40px;
+    font-size: 20px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*+++++++++++++++++++++++++++++++new*/
+.headerleft .logo {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+.headerleft .bjsq_logo{
+    display: inline-block;
+}
+.headerleft .bjsq_logo_link{
+    color: #999;
+    font-size: 14px;
+}
+.headerleft .logo img {
+    width: auto;
+    height: 35px;
+    position: relative;
+}
+.headerleft a.index
+.headerleft a {
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+}
+.headerleft a.back{
+    float: left;
+    display: inline-block;
+    padding-right: 15px;
+}
+.headerleft a.index{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.headerleft a.index img{
+    height: 35px;
+    width: auto;
+    display: inline-block;
+    margin-top: 2px;
+}
+.headerleft a.back i{
+    font-size: 40px;
+    line-height: 40px;
+}
+/*+++++++++++++++++++++++++++++++new*/
+.headerleft a i.red {
+    color: #e4211d!important;
+}
+
+.headerleft a em {
+    color: #e4211d;
+    font-style: normal;
+    font-size: 0.7em;
+    text-indent: 1em;
+}
+.header_name{
+    float: left;
+    margin-left: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 40px;
+}
+.headerright {
+    float: right;
+    height: 40px;
+}
+
+.headerright .user {
+    float: left;
+    margin-right: 20px;
+}
+
+.headerright .search {
+    float: left;
+}
+
+.search-menu {
+    width: 100%;
+    position: fixed;
+    height: auto;
+    top: 40px;
+    left: 0;
+    display: none;
+    z-index: 99;
+}
+
+.search-menu ul {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    z-index: 99;
+    padding-top: 20px;
+}
+
+.search-menu ul li {
+    display: inline-block;
+    width: 32%;
+    height: 100px;
+}
+
+.search-menu ul li a {
+    display: table-cell;
+    height: 100px;
+    width: 120px;
+    text-align: center;
+    color: #333;
+    vertical-align: bottom;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    line-height: 20px;
+}
+
+.search-menu ul li:first-child a {
+    background-image: url(../../../images/wap/v1/index/index-1.png);
+}
+
+.search-menu ul li:nth-child(3) a {
+    background-image: url(../../../images/wap/v1/index/index-2.png);
+}
+
+.search-menu ul li:nth-child(4) a {
+    background-image: url(../../../images/wap/v1/index/index-3.png);
+}
+
+.search-menu ul li:nth-child(5) a {
+    background-image: url(../../../images/wap/v1/index/index-btn.png);
+}
+
+.search-menu ul li:nth-child(6) a {
+    background-image: url(../../../images/wap/v1/index/index-4.png);
+}
+
+.search-menu ul li:nth-child(7) a {
+    background-image: url(../../../images/wap/v1/index/index-5.png);
+}
+
+.search-menu ul li:nth-child(9) a {
+    background-image: url(../../../images/wap/v1/index/index-6.png);
+}
+
+.header i.icon-mobile-phone {
+    color: #666;
+}
+
+
+/*公共页脚*/
+
+.footer {
+    text-align: center;
+    background-color: #dededc;
+    padding: 15px 0 15px;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a.on {
+    color: #009a59;
+}
+
+.footer ul li a {
+    font-size: 14px;
+    display: inline-block;
+    color: #5e5d5b;
+    padding: 0 10px;
+    line-height: 100%;
+    border-left: 1px solid #8b8a89;
+}
+
+.footer ul li a.noborder {
+    border-left: none;
+}
+
+.footer .footerwz {
+    color: #565654;
+    margin-top: 10px;
+}
+
+.footer .footerwz a {
+    color: #565654;
+}
+
+.clear {
+    clear: both;
+}
+
+.footerbtn {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    z-index:100;
+}
+
+.footerbtn span {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footerbtn span:first-child {
+    border-right: 1px solid #ccc;
+}
+
+.footerbtn span a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #009a59;
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}

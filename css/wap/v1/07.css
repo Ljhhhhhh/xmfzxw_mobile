@@ -1,0 +1,215 @@
+#zxlx {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#zxlx span {
+    display: inline-block;
+    height: 30px;
+    width: 49%;
+    text-align: center;
+}
+
+#zxlx span a {
+    display: inline-block;
+    width: 90%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    line-height: 28px;
+    color: #666;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#zxlx span a.on {
+    border: none;
+    background-color: #078d5b;
+    color: #fff;
+}
+
+#lanmu-qiehuan-gz {
+    display: none;
+}
+
+.lanmu {
+    width: 100%;
+    height: 35px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.lanmu li {
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    margin-right: -1px;
+    color: #666;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.lanmu li.on {
+    color: #078d5b;
+    position: relative;
+}
+
+.lanmu li.on:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    border-left: none;
+    background-color: #FFF;
+    z-index: 2;
+    left: 42%;
+    bottom: -8px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.lanmu li:last-child {
+    margin-right: 0px;
+}
+
+.lanmu li:first-child {
+    margin-left: 1px;
+}
+
+.lanmubox {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.xlm {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    padding-left: 1%;
+    display: none;
+    background-color: #FFF;
+    z-index: 99;
+}
+
+.xlm li {
+    float: left;
+    width: 18%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.xlm li:last-child {
+    margin-right: 0;
+}
+
+.xlm li a {
+    color: #333;
+}
+
+
+/*栏目*/
+
+.picshow {
+    width: 49%;
+    margin-right: 2%;
+    height: 160px;
+    position: relative;
+    border: 1px solid #e4e4e4;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.picshow:nth-child(odd) {
+    margin-right: 0;
+}
+
+.picshow img {
+    width: 100%;
+    height: 88%;
+}
+
+.picshow span {
+    color: #e4e4e4;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    line-height: 15px;
+    color: #333;
+}
+
+.picshow em {
+    color: #e4e4e4;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 10px;
+    line-height: 15px;
+    color: #333;
+}
+
+.picshow i.icon-star {
+    color: #078d5b!important;
+}
+
+
+/*图片展示*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    position: relative;
+}
+
+.box {
+    padding: 15px 0 0 15px;
+    float: left;
+    width: 45%;
+}
+
+.pic {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.pic a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pic a p {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+    height: 20px;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+}

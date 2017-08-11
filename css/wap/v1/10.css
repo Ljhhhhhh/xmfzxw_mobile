@@ -1,0 +1,79 @@
+.zxzs{
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.zxzs img{
+    width: 100%;
+    height: auto;
+}
+.yhxx{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.yhxx .yhtx{
+    float: left;
+}
+.yhxx .yhtx img{
+    width: 50px;
+    height: 50px;
+}
+.yhxx .yhsm{
+    padding-top: 8px;
+    float: left;
+    color: #FFF;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.yhxx .yhsm p:nth-child(2){
+    font-size: 0.75em;
+}
+.gkxx{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 0 5px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+/*相册*/
+.kongzhi{
+    height: 40px;
+    width: 92%;
+    margin: 0 auto 20px;
+}
+.kongzhi .page{
+    width: 28%;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin: 0 1%;
+}
+.kongzhi .page em,.kongzhi .page span{
+    font-style: normal;
+}
+.kongzhi .page em{
+    padding-left: 39%;
+}
+.kongzhi .pre,.kongzhi .next{
+    background-color: #d2f6d2;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 35%;
+    color: #666;
+}
+.kongzhi .pre a,.kongzhi .next a{
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+/*控制*/

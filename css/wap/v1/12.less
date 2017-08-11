@@ -1,0 +1,218 @@
+/*报价神器*/
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-container img {
+  width: 100%;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f0003e !important;
+}
+
+/*swiper*/
+.process {
+  width: 96%;
+  height: auto;
+  margin: 15px auto;
+  padding: 0 2% 10px;
+  box-shadow: 0 0 0 10px #EEE;
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    a.link_all {
+      display: inline-block;
+      float: right;
+      font-size: 0.7em;
+    }
+  }
+  p.menu_control {
+    line-height: 30px;
+    margin: 10px auto 15px;
+    span {
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #EEE;
+      background: linear-gradient(to right,#f39800,#f39800) no-repeat center;
+      background-size: 0 0;
+      transition: all 0.5s;
+      &.on{
+        animation: menu 0.5s;
+        animation-fill-mode: forwards ;
+        color: #FFF;
+      }
+    }
+    @keyframes menu {
+      from{
+        background-size: 0 0;
+      }
+      to{
+        background-size: 100% 100%;
+      }
+    }
+    em {
+      display: inline-block;
+      width: 5%;
+      text-align: center;
+      font-style: normal;
+      color: #AAA;
+      font-size: 20px;
+      font-weight: 100;
+    }
+  }
+  .menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    .triangle {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      transform: rotate(45deg);
+      background-color: #FFF;
+      border: 1px solid #EEE;
+      top: -8px;
+      left: 13%;
+      border-right: none;
+      border-bottom: none;
+    }
+    ul {
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      border: 1px solid #EEE;
+      display: none;
+      background-color: #FFF;
+      padding-top: 5px;
+      font-size: 0;
+      &.before {
+        display: block;
+      }
+      li {
+        display: inline-block;
+        padding: 3px 0 0;
+        text-align: center;
+        width: 25%;
+        &.hot{
+          background: url(../../../images/wap/v1/hot.png) no-repeat 99% 0;
+          background-size: 15px;
+          a{
+            color: red;
+          }
+        }
+        a {
+          line-height: 30px;
+          color: #333;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+//装修流程
+#container{
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  header.tabHead{
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 0;
+    border-bottom: 1px solid #EEE;
+    box-sizing: border-box;
+    span{
+      font-size: 16px;
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      line-height: 30px;
+      &.active{
+        color: #009944;
+        box-sizing: border-box;
+        border-bottom: 2px solid #009944;
+      }
+    }
+  }
+  .khfxWarp{
+    width: 100%;
+    height: auto;
+    section.khfxPane{
+      width: 100%;
+      height: 100px;
+      margin: 10px auto;
+      a{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #EEE;
+        padding: 10px 0;
+        img{
+          width: 110px;
+          height: 80px;
+          float: left;
+          margin-right: 15px;
+        }
+        h5{
+          color: #333;
+          font-size: 14px;
+          line-height: 25px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        p{
+          font-size: 12px;
+          line-height: 20px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
+  }
+}
+#goTop{
+  position: fixed;
+  bottom: 15%;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #CCC;
+  color: #FFF;
+  z-index: 99;
+  opacity: 0.7;
+  filter:opacity(70);
+  padding: 0 0 10px;
+  display: none;
+  &.show{
+    display: block;
+  }
+  i{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 20px;
+  }
+  span{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+}

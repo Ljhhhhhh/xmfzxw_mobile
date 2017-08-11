@@ -1,0 +1,166 @@
+    /*边框*/
+    
+    .border {
+        border: 5px solid #ff4e00;
+        border-left: none;
+        border-right: none;
+        box-sizing: border-box;
+    }
+    
+    .mt {
+        margin-top: -3px;
+    }
+    /*搜索美图*/
+    
+    .searchimg {
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid #008b50;
+        margin: 0 auto;
+    }
+    
+    .searchimg input[type="text"] {
+        height: 100%;
+        border: 0;
+        color: #a6a6a4;
+        outline: none;
+        line-height: 40px;
+        font-size: 14px;
+        text-indent: 1em;
+        width: 220px;
+        overflow-x: scroll;
+    }
+    
+    .searchimg input[type="submit"] {
+        height: 100%;
+        width: 120px;
+        background-color: #008b50;
+        padding: 0;
+        border: none;
+        float: right;
+        color: #FFF;
+        border-radius: 0px;
+        -webkit-appearance: none;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .swiper-container .swiper-wrapper img {
+        width: 100%;
+        height: 
+        border: 5px solid #eee;
+        border-left: none;
+        border-right: none;
+    }
+    /*swiper BUG*/
+    
+    .swiper-slide {
+        margin-bottom: -5px;
+    }
+    /*swiper BUG*/
+    /*swipe圆点颜色*/
+    
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #4a4947!important;
+    }
+    /*swipe圆点颜色*/
+    
+    .picshow {
+        width: 100%;
+        height: 160px;
+        box-sizing: border-box;
+        border-bottom: 3px solid #eee;
+        margin: 0 auto;
+    }
+    
+    .picshow img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .picshow .picleft {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    
+    .picshow .picright {
+        width: 75%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border-left: 3px solid #eee;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .picleft .picbt {
+        box-sizing: border-box;
+        border-bottom: 3px solid #eee;
+    }
+    
+    .picleft .picbt,
+    .picleft .picsmall {
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+.picwz{position: absolute;bottom: 0;left: 0;width: 100%;height: 15px;background-color: rgba(0,0,0,0.4);z-index: 3;font-size: 10px;line-height: 16px;text-indent: 1em;color: #FFF;}
+.picright .picwz{background:none;}
+    /*图片展示*/
+    
+    .lanmu {
+        height: 100px;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px solid #eee;
+    }
+    
+    .lanmu table {
+        width: 90%;
+        height: 100%;
+        margin: 0px auto;
+        padding: 10px 0px;
+        text-align: center;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .lanmu table tr td {
+        border: 1px solid #e2e2e2;
+        margin: none;
+    }
+    /*栏目展示*/
+    
+    .xgtbt {
+        height: 44px;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px solid #eee;
+    }
+    
+    .xgtbt span {
+        display: block;
+        height: 100%;
+        width: 30%;
+        border-right: 2px solid #eee;
+        line-height: 40px;
+        text-align: center;
+    }
+.xgtcircle{width: 100%;height: auto;}
+.xgtcircle dl{width: 20%;height: 50%;margin-left: 4%;float: left;margin-top: 30px;}
+/*.xgtcircle dl:last-child{margin-right: 4%;}*/
+.xgtcircle dl dt{width: 100%;height: 80%;overflow: hidden;}
+.xgtcircle dl dt img{width: 100%;}
+.xgtcircle dl dd{text-align: center;margin-top: 10px;}
+.xgtcircle a dl dd{color: #333;}
+.tianchong{height: 30px;width: 100%;clear: both;}
+    /*效果图（圆）*/

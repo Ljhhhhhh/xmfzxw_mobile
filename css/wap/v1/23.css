@@ -1,0 +1,814 @@
+.companyhead {
+    width: 95%;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 0;
+    background-image: url("../../../images/wap/v1/zxgs_header_bg.png");
+    background-size: 100% 100%;
+}
+
+.companyhead .logo {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.companyhead .logo > img {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+}
+
+.companyhead .logo img.designer_avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 20%;
+}
+
+.companyhead .logo p.mfrx {
+    font-size: 0.8em;
+    line-height: 25px;
+}
+
+.companyhead .logo p.mfrx em.real_name {
+    display: inline-block;
+    width: 62px;
+    height: 17px;
+    background: url("../../../images/wap/v1/real_name.png") no-repeat center;
+    background-size: 62px 17px;
+    position: relative;
+    top: 3px;
+}
+
+.companyhead .logo p.mfrx em {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+.companyhead .logo p.mfrx a.free_link {
+    display: inline-block;
+    padding: 0 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f19149;
+    color: #FFF;
+}
+
+/*公司头部*/
+.qiehuan {
+    width: 95%;
+    height: 35px;
+    margin: 5px auto 15px;
+}
+
+.qiehuan ul {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: -webkit-gradient(linear, right top, left top, from(#cccccc), to(#cccccc));
+    background-image: linear-gradient(to left, #cccccc, #cccccc);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 90% 1px;
+}
+
+.qiehuan ul li {
+    text-align: center;
+    color: #333;
+    float: left;
+    width: 33%;
+    height: 100%;
+    line-height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.qiehuan ul li.on {
+    background-image: -webkit-gradient(linear, right top, left top, from(#009a59), to(#009a59));
+    background-image: linear-gradient(to left, #009a59, #009a59);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 35% 2px;
+    color: #009a59;
+}
+
+/*切换*/
+.companyindex {
+    width: 100%;
+    height: auto;
+}
+
+.companyindex .koubei {
+    width: 100%;
+    height: 115px;
+    margin: 15px 0 0;
+    clear: both;
+    position: relative;
+}
+
+.companyindex .koubei .koubei_left {
+    width: 25%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    border-right: 1px solid #333;
+}
+
+.companyindex .koubei .koubei_left p {
+    line-height: 30px;
+}
+
+.companyindex .koubei .koubei_left p:nth-child(2) {
+    font-size: 1.5em;
+    color: red;
+}
+
+.companyindex .koubei .koubei_right {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.companyindex .koubei .koubei_right p {
+    line-height: 30px;
+    font-size: 1em;
+    font-size: 14px;
+}
+
+.companyindex .koubei .koubei_right p i {
+    color: red;
+}
+
+p.mianfei_link {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px;
+    height: 30px;
+}
+
+p.mianfei_link a {
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+}
+
+p.mianfei_link a.mfsj {
+    background-color: #87c341;
+    margin-right: 3%;
+}
+
+p.mianfei_link a.mfbj {
+    background-color: #fa8a3d;
+}
+
+.companyindex p.zxrx {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.companyindex p.zxrx,
+.companyindex p.gsdz {
+    line-height: 40px;
+    height: auto;
+    margin: 10px auto;
+    width: 80%;
+    padding: 0 10%;
+    font-size: 16px;
+    -webkit-box-shadow: 0 0 0 10px #f7f7f7;
+    box-shadow: 0 0 0 10px #f7f7f7;
+}
+
+.companyindex p.zxrx i,
+.companyindex p.gsdz i {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.companyindex p.zxrx i,
+.companyindex p.zxrx a {
+    color: red;
+}
+
+.companyindex p.zxrx span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.companyindex p.gsdz small {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.companyindex p.gsdz span {
+    display: block;
+}
+
+.zxal {
+    width: 100%;
+    height: auto;
+    /*border-top: 1px dotted #999;*/
+}
+
+.zxal p.zxal_header {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+    /*color: #666;*/
+}
+
+.zxal p.zxal_header span {
+    font-size: 16px;
+}
+
+.zxal p.zxal_header span small {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.zxal p.zxal_header small {
+    display: inline-block;
+    padding-left: 5px;
+    color: #666;
+}
+
+.zxal p.zxal_header small em {
+    color: #009944;
+    font-style: normal;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.zxal p.zxal_header a {
+    float: right;
+    font-size: 16px;
+}
+
+.zxal .al_box {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    position: relative;
+}
+
+.zxal .al_box img {
+    width: 100%;
+    height: auto;
+}
+
+.zxal .al_box .baitiao {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    bottom: 4px;
+    opacity: 0.7;
+    -webkit-filter: opacity(70);
+    filter: opacity(70);
+    background-color: #FFF;
+    overflow: hidden;
+    line-height: 55px;
+}
+
+.zxal .al_box .baitiao span {
+    display: inline-block;
+    text-indent: 0.5em;
+    font-size: 14px;
+    color: #333;
+}
+
+.zxal .al_box .baitiao span i {
+    color: pink;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.zxal .al_box .baitiao span em {
+    font-style: normal;
+    color: #666;
+    display: inline-block;
+}
+
+.zxal .al_box .baitiao span:first-child {
+    font-size: 1.1em;
+}
+
+.companyindex .gsjj {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 15px 0;
+    -webkit-box-shadow: 0 0 0 10px #f7f7f7;
+    box-shadow: 0 0 0 10px #f7f7f7;
+    /*border-top: 1px dotted #666;*/
+}
+
+.companyindex .gsjj .gsjj_bt {
+    padding-top: 5px;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    height: 30px;
+}
+
+.companyindex .gsjj .gsjj_ms {
+    height: auto;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 2em;
+    position: relative;
+    padding: 0 10%;
+}
+
+.companyindex .gsjj .gsjj_ms i {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 24px;
+    color: #f19149;
+}
+
+.companyindex .gsjj .more {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    height: 80px;
+}
+
+.companyindex .gszs {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.companyindex .gszs .gszs_bt {
+    /*border-top: 1px dotted #666;*/
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    height: 30px;
+}
+
+.swiper-container {
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background-image: url("../../../images/wap/v1/swiper-pre.png") !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background-image: url("../../../images/wap/v1/swiper-next.png") !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    line-height: 300px;
+}
+
+.swiper-slide img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.companyindex .qgrx {
+    -webkit-box-shadow: 0 0 0 10px #f7f7f7;
+    box-shadow: 0 0 0 10px #f7f7f7;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    margin: 15px 0 0;
+    padding: 10px 0;
+}
+
+.companyindex .qgrx .qgrx_bt {
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    height: 30px;
+    color: #333;
+}
+
+.companyindex .qgrx .qgrx_bt a {
+    display: inline-block;
+    text-indent: 0.5em;
+    color: #ff0055;
+    line-height: 30px;
+}
+
+/*公司首页*/
+.shejifangan {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+}
+
+.shejifangan .fanganlist {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.shejifangan .fanganlist li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.shejifangan .fanganlist li a {
+    display: block;
+}
+
+.shejifangan .fanganlist li a img {
+    width: 100%;
+    height: auto;
+}
+
+.shejifangan .fanganlist li a span {
+    display: block;
+    position: absolute;
+    width: 97%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 5px;
+    color: #FFF;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.shejifangan .fanganlist li a.sqsj {
+    position: absolute;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 30px;
+    right: 15px;
+    bottom: 5px;
+    color: white;
+    background-color: #FF6600;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.kongzhi {
+    height: 40px;
+    width: 92%;
+    margin: 0 auto 15px;
+    clear: both;
+}
+
+.kongzhi .page {
+    width: 28%;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0 1%;
+}
+
+.kongzhi .page em,
+.kongzhi .page span {
+    font-style: normal;
+}
+
+.kongzhi .page em {
+    padding-left: 39%;
+}
+
+.kongzhi .pre,
+.kongzhi .next {
+    background-color: #009a59;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 35%;
+    color: #666;
+}
+
+.kongzhi .pre a,
+.kongzhi .next a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+}
+
+/*控制*/
+/*设计方案*/
+.sheji {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+}
+
+.sheji_team {
+    width: 100%;
+    height: auto;
+}
+
+.sheji_team .team_box {
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sheji_team .team1 {
+    width: 90%;
+    height: 50px;
+    line-height: 60px;
+    position: relative;
+    margin: 0 auto 15px;
+}
+
+.sheji_team .team1 img.author {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.sheji_team .team1 .team_wz {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+.sheji_team .team1 .team_wz p {
+    line-height: 25px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sheji_team .team1 .team_wz p em {
+    font-style: normal;
+}
+
+.sheji_team .team1 .team_wz p span {
+    padding: 0 1em 0 0;
+    display: inline-block;
+}
+
+.sheji_team .team1 .team_wz p span em {
+    font-style: normal;
+    color: red;
+}
+
+.sheji_team .team1 a.btn {
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    background-color: #f19149;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.sheji_team .team_img {
+    width: 100%;
+    height: auto;
+}
+
+.sheji_team .team_img .img {
+    width: 48%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.sheji_team .team_img .img:last-child {
+    margin-right: 0;
+}
+
+.sheji_team .team_img .img img {
+    width: 100%;
+    height: auto;
+}
+
+.sheji_team .team_img .img span {
+    position: absolute;
+    font-size: 14px;
+    display: block;
+    bottom: 5px;
+    width: 100%;
+    color: #FFF;
+    text-indent: 1em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*设计团队*/
+.sjs_modal {
+    width: 80%;
+    height: 400px;
+    z-index: 99;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    background-color: #FFF;
+    display: none;
+    -webkit-box-shadow: 0 0 0 1000px #EEE;
+    box-shadow: 0 0 0 1000px #EEE;
+}
+
+.sjs_modal img.sjs_modal_close_btn {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 30px;
+    height: auto;
+}
+
+.sjs_modal h3.modal_head {
+    background-color: #42b173;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.sjs_modal p.p1 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.sjs_modal p.p1 span {
+    color: red;
+}
+
+.sjs_modal form {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.sjs_modal form p {
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.sjs_modal form p label {
+    display: inline-block;
+    width: 30%;
+}
+
+.sjs_modal form p input {
+    outline: none;
+    border: 1px solid #e5e5e5;
+    line-height: 30px;
+    text-indent: 0.5em;
+    width: 69%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.sjs_modal form p input select::-ms-expand {
+    display: none;
+}
+
+.sjs_modal form p select {
+    width: 32%;
+    height: 30px;
+    text-indent: 0.5em;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    background-color: #FFF;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: #666;
+    background: url('../../../images/wap/v1/bjsq/sj.png') no-repeat 90%;
+    background-size: 8px;
+}
+
+.sjs_modal form p select select::-ms-expand {
+    display: none;
+}
+
+.sjs_modal form button {
+    display: block;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #42b173;
+    color: #FFF;
+    outline: none;
+    border: 1px solid #42b173;
+    margin: 35px auto 0;
+    font-size: 16px;
+}
+.sjs_modal_result{
+    width: 70%;
+    display: none;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: #FFF;
+    box-shadow: 0 0 0 500px #EEE;
+}
+.sjs_modal_result p.close{
+    position: relative;
+}
+.sjs_modal_result p.close i.icon-remove-circle{
+    position: absolute;
+    right: -35px;
+    top: -35px;
+    font-size: 36px;
+    color: #999;
+}
+.sjs_modal_result i.icon-ok-sign{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    margin: 10px auto 15px;
+}
+.sjs_modal_result h5{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.sjs_modal_result p.desription{
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px auto 5px;
+}
