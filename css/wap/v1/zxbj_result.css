@@ -1,0 +1,112 @@
+.box {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.title {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.title .ok_article {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.title .ok_article strong {
+  font-size: 60px;
+  color: #00b377;
+}
+.title .ok_article span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translate(10%, -50%);
+          transform: translate(10%, -50%);
+  font-size: 20px;
+}
+.title h4 {
+  color: #00b377;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 30px;
+}
+.title p {
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+  line-height: 25px;
+}
+.form {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 15px 10px;
+}
+.form article {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.form article h5.question {
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 14px;
+}
+.form article p {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.form article p span {
+  display: inline-block;
+  width: 50%;
+  line-height: 30px;
+}
+.form article p span label {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.form article input[type='text'] {
+  display: block;
+  margin: 10px auto 0;
+  width: 90%;
+  line-height: 40px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0 0 3px #999;
+          box-shadow: 0 0 3px #999;
+  border-radius: 10px;
+  text-indent: 1em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.form article input[type='text']:focus {
+  -webkit-box-shadow: 0 0 5px #333;
+          box-shadow: 0 0 5px #333;
+}
+.form .submit {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #00b377;
+  outline: none;
+  border: none;
+  color: #FFF;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}

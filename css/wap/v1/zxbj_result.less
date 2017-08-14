@@ -1,0 +1,110 @@
+@green: #00b377;
+@width: 95%;
+.box {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.title {
+  .box;
+  .ok_article {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    strong {
+      font-size: 60px;
+      color: @green;
+    }
+    span {
+      display: inline-block;
+      position: relative;
+      transform: translate(10%, -50%);
+      font-size: 20px;
+    }
+  }
+  h4 {
+    color: @green;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 30px;
+  }
+  p {
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+    line-height: 25px;
+  }
+}
+
+.form {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 15px 10px;
+  article{
+    width: 100%;
+    height:auto;
+    margin-bottom: 15px;
+    h5.question{
+      font-weight: normal;
+      line-height: 30px;
+      font-size: 14px;
+    }
+    p{
+      width: 90%;
+      height:auto;
+      margin: 0 auto;
+      span{
+        display: inline-block;
+        width: 50%;
+        line-height: 30px;
+        label{
+          display: inline-block;
+          padding-left: 10px;
+          font-size: 14px;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+    input[type='text']{
+      display: block;
+      margin: 10px auto 0;
+      width: 90%;
+      line-height: 40px;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      outline: none;
+      border: 1px solid #999;
+      box-shadow: 0 0 3px #999;
+      border-radius: 10px;
+      text-indent: 1em;
+      transition: all 0.3s;
+      &:focus{
+        box-shadow: 0 0 5px #333;
+      }
+    }
+  }
+  .submit{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: @green;
+    outline: none;
+    border: none;
+    color: #FFF;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+}
