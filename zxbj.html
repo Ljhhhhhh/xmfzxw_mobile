@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="API/animate.css">
     <link rel="stylesheet" href="css/wap/v1/LArea.css">
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
-    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=931d081122d6c5ff0b32ed70b413d412"></script>
-    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+
     <link rel="stylesheet" href="css/wap/v1/zxbj.css">
 </head>
 
@@ -44,17 +43,16 @@
 <!--头部-->
 <section class="banner">
     <img src="images/wap/v1/zxbj_banner.png" alt="">
-    <h5 class="jisuan">小蜜蜂装修网帮您算出</h5>
     <ul class="advantage">
-        <li>获取规范预算模版</li>
-        <li>获取最新人工费用</li>
-        <li>获取各地施工造价</li>
-        <li>了解常规建材行情</li>
+        <li>获取规范<br/>预算模版</li>
+        <li>获取最新<br/>人工费用</li>
+        <li>获取各地<br/>施工造价</li>
+        <li>了解常规<br/>建材行情</li>
     </ul>
 </section>
 <section class="form">
     <h2>装修计算器</h2>
-    <p class="have">已有<strong>26,321</strong>位业主获得装修报价</p>
+    <p class="have">已有<strong>26,321</strong>位业主免费获取了装修预算</p>
     <form action="">
         <p class="content-block">
             <input id="demo1" type="text" readonly="" placeholder="请选择地址">
@@ -63,19 +61,63 @@
         <input type="hidden" value="" id="map_address">
         <input type="number" placeholder="请输入您的装修面积">
         <input type="number" placeholder="输入手机号以获取详细预算">
+        <input type="text" placeholder="如何称呼您">
         <button type="submit">开始计算</button>
     </form>
 </section>
-<section class="bj_result">
+<section class="bj_result  wow bounceInUp">
     <h2>您的装修预算约为<strong class="total">？</strong>元</h2>
-    <div class="blackboard wow bounceInLeft">
+    <div class="blackboard">
         <p>材料费：<strong class="cl">？</strong>元</p>
         <p>设计费：<strong class="sj">？</strong>元</p>
         <p>人工费：<strong class="rg">？</strong>元</p>
         <p>质检费：<strong class="zj">？</strong>元</p>
     </div>
-    <p class="promise">*为了您的权益，您的信息将会严格保密</p>
-    <p class="promise">*以上价格会根据您填写的内容进行计算，影响预算的因素有：地区、面积等，请务必真实填写</p>
+    <p class="promise">*以上价格会根据您填写的内容进行计算，影响预算的因素有：地区、面积等，请务必真实填写。</p>
+    <p class="promise">*以上报价仅供参考，如需更精准的装修报价，可在小蜜蜂业主服务中心给您致电时免费获取。</p>
+</section>
+<section class="customer_box wow bounceInUp">
+    <h5>装修心里没底，试试咨询专业客服</h5>
+    <div class="customer">
+        <img src="images/wap/v1/zxbj_kefu.png" alt="装修客服" class="kefu">
+        <img src="images/wap/v1/zxbj_jt.png" alt="箭头" class="jiantou">
+        <div>
+            <span><a href="tel:4001675980">人工报价</a></span>
+            <p>8:30 - 20:30</p>
+        </div>
+    </div>
+    <div class="dot_line"></div>
+</section>
+<section class="sheng">
+    <h2>小蜜蜂让您<strong>省心 省力 更省钱</strong></h2>
+    <article>
+        <img src="images/wap/v1/zxbj_s1.png" alt="在线指南报价" class="wow bounceInLeft">
+        <div>
+            <h7>在线指南报价</h7>
+            <p>轻松获取报价</p>
+        </div>
+    </article>
+    <article>
+        <div>
+            <h7>装修行情参考</h7>
+            <p>合理预算报价</p>
+        </div>
+        <img src="images/wap/v1/zxbj_s2.png" alt="装修行情参考" class="wow bounceInRight">
+    </article>
+    <article>
+        <img src="images/wap/v1/zxbj_s3.png" alt="权威平台保证" class="wow bounceInLeft">
+        <div>
+            <h7>权威平台保证</h7>
+            <p>让您装修无忧</p>
+        </div>
+    </article>
+</section>
+<div class="clearfix"></div>
+<section class="service">
+    <h5>在小蜜蜂装修网，您还可以享受以下服务:</h5>
+    <img src="images/wap/v1/zxbj-banner-1.png" alt="">
+    <img src="images/wap/v1/zxbj-banner-2.png" alt="">
+    <img src="images/wap/v1/zxbj-banner-3.png" alt="">
 </section>
 <!--页脚-->
 <div class="clear"></div>
@@ -89,15 +131,17 @@
     <div class="footerwz">手机小蜜蜂：<a href="http://m.xmfzxw.com">m.xmfzxw.com</a></div>
 </div>
 <!--页脚-->
-<div class="footerbtn">
-    <span><a href=""><i class="icon-eye-open">&nbsp;</i>免费设计</a></span>
-    <span><a href=""><i class="icon-money">&nbsp;</i>免费报价</a></span>
-</div>
+<!--<div class="footerbtn">-->
+    <!--<span><a href=""><i class="icon-eye-open">&nbsp;</i>免费设计</a></span>-->
+    <!--<span><a href=""><i class="icon-money">&nbsp;</i>免费报价</a></span>-->
+<!--</div>-->
 </body>
 
 </html>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/wap/v1/common.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=931d081122d6c5ff0b32ed70b413d412"></script>
+<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
 <script src="js/wap/v1/LAreaData1.js" type="text/javascript"></script>
 <script src="js/wap/v1/LAreaData2.js" type="text/javascript"></script>
 <script src="js/wap/v1/LArea.js" type="text/javascript"></script>

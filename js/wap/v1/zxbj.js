@@ -23,4 +23,6 @@ $(function () {
     });
     <!--选地址插件end-->
     new WOW().init();
+    var arth=$(".sheng").find('article').eq(0).height();
+    $(".sheng").find('article').eq(1).height(arth);
 })
