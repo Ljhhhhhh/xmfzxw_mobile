@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/wap/v1/22.css" line="165" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95794a7d-d3f6-4e7a-a08f-7572db7e303a" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zxbj.html" afterPath="$PROJECT_DIR$/zxbj.html" />
-    </list>
+    <list default="true" id="95794a7d-d3f6-4e7a-a08f-7572db7e303a" name="默认的" comment="" />
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -322,12 +319,12 @@
       <workItem from="1502509198843" duration="4162000" />
       <workItem from="1502519158780" duration="10324000" />
       <workItem from="1502669706956" duration="20345000" />
-      <workItem from="1502694768169" duration="7423000" />
+      <workItem from="1502694768169" duration="7569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44488000" />
+    <option name="totallyTimeSpent" value="44634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
