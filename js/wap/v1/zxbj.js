@@ -23,6 +23,37 @@ $(function () {
     });
     <!--选地址插件end-->
     new WOW().init();
-    var arth=$(".sheng").find('article').eq(0).height();
-    $(".sheng").find('article').eq(1).height(arth);
-})
+    // 628/平方
+    // 人工 58%
+    $("#submit").click(function (e) {
+        e.preventDefault();
+        var mobile=$("#mobile").val();
+        if (!(/^1[34578]\d{9}$/.test(mobile))) {
+            alert("手机号码有误，请重填");
+            return false;
+        };
+        var area=$("#area").val();
+        if(!area){
+            alert("请输入平方数");
+            return false
+        }
+        var total=(area*628/10000).toFixed(1);
+        var Rg=(total*0.58).toFixed(1);
+        var Cl=(total*0.42).toFixed(1);
+        var Sj=0,Zj=0;
+        $("strong.total").text(total);
+        var back=$(".blackboard");
+        back.find(".cl").text(Cl);
+        back.find(".rg").text(Rg);
+        back.find(".sj").text(0);
+        back.find(".zj").text(0);
+        $.ajax({
+            //提交用户数据
+        })
+    });
+    setTimeout(function () {
+        var sheng=$(".sheng").find('article');
+        var arth=sheng.eq(0).height();
+        sheng.eq(1).height(arth);
+    },200);
+});

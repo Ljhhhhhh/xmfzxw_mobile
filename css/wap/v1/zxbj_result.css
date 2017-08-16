@@ -1,3 +1,6 @@
+html body {
+  padding-bottom: 0!important;
+}
 .box {
   width: 95%;
   height: auto;
@@ -109,4 +112,17 @@
   line-height: 40px;
   font-size: 20px;
   border-radius: 10px;
+}
+.form p.promise {
+  width: 90%;
+  height: auto;
+  line-height: 20px;
+  margin: 10px auto;
+  font-size: 12px;
+  color: #666;
+}
+.form p.promise span {
+  color: #00b377;
+  display: inline-block;
+  padding-right: 5px;
 }
