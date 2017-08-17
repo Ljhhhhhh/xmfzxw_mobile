@@ -1,0 +1,15 @@
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/01楼地面.png,200,200,2,2
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/02墙面.png,200,200,2,204
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/03室内楼梯.png,200,200,2,406
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/04门窗安装.png,200,200,2,608
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/05进户门.png,200,200,2,810
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/06阳台.png,200,200,2,1012
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/07层高.png,200,200,2,1214
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/08给水.png,200,200,2,1416
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/09排水.png,200,200,2,1618
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/10电气.png,200,200,2,1820
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/11预留洞.png,200,200,2,2022
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/12弱电.png,200,200,2,2224
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/13平衡度.png,200,200,2,2426
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/14门窗垂直度.png,200,200,2,2628
+E:/xampp/htdocs/mobile/images/wap/v1/需要检测的项目/15公共配套.png,200,200,2,2830
