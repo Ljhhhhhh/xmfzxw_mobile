@@ -37,11 +37,15 @@ $(function () {
             alert("请输入平方数");
             return false
         }
+        
         var total=(area*628/10000).toFixed(1);
         var Rg=(total*0.58).toFixed(1);
         var Cl=(total*0.42).toFixed(1);
         var Sj=0,Zj=0;
-        $("strong.total").text(total);
+        $("strong.total").parent("h2").html("您家半包预估约为<strong>"+total+"</strong>万元");
+        var promise=$(".promise");
+        promise.eq(0).text("*稍后小蜜蜂装修网客服将回电您，免费提供装修咨询服务");
+        promise.eq(1).text("*因材料品牌及工程量不同，具体报价以量房实测为准。");
         var back=$(".blackboard");
         back.find(".cl").text(Cl);
         back.find(".rg").text(Rg);
@@ -49,11 +53,30 @@ $(function () {
         back.find(".zj").text(0);
         $.ajax({
             //提交用户数据
+            type:"POST",
+            url:"yp.php",
+            data:{
+                mobile:mobile
+            },
+            success:function(data){
+                alert("申请成功");
+                console.log(data);
+            },
+            error:function(){
+                alert("申请失败")
+            }
         })
     });
-    setTimeout(function () {
+    var timer=setInterval(function () {
+        height();
+    },300);
+    function height() {
         var sheng=$(".sheng").find('article');
-        var arth=sheng.eq(0).height();
-        sheng.eq(1).height(arth);
-    },200);
+        if(sheng.eq(1).height()!==sheng.eq(0).height()){
+            var arth=sheng.eq(0).height();
+            sheng.eq(1).height(arth);
+        }else {
+            clearInterval(timer);
+        }
+    };
 });
