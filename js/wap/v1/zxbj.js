@@ -33,8 +33,8 @@ $(function () {
             return false;
         };
         var area=$("#area").val();
-        if(!area){
-            alert("请输入平方数");
+        if(!area||area==0){
+            alert("请输入正确的平方数");
             return false
         }
         

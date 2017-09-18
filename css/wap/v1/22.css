@@ -1,7 +1,30 @@
+.banner{
+    width:100%;
+    height:auto;
+    margin:5px 0;
+}
+.banner a{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.banner a img{
+    width:100%;
+    height:auto;
+}
+h1.tuijian{
+    font-size:20px;
+    text-align:center;
+    color:#333;
+    line-height:30px;
+    margin:10px 0 0;
+    font-weight: normal;
+}
 .searchimg {
     width: 100%;
     height: 40px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #008b50;
     margin: 0 auto;
 }
@@ -58,7 +81,8 @@
     line-height: 30px;
     text-align: center;
     color: #333;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #eee;
     position: relative;
     cursor: pointer;
@@ -79,7 +103,8 @@
     left: 44%;
     background-color: #7dc39f;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     z-index: -1;
 }
 
@@ -110,14 +135,16 @@
     height: 60px;
     position: absolute;
     top: 50%;
-    transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+        transform:translate(0,-50%);
     -webkit-transform:translate(0,-50%);
 }
 
 .gslb li .imgbox img {
     width: 60px;
     height: 60px;
-    box-shadow: 0 0 2px #666;
+    -webkit-box-shadow: 0 0 2px #666;
+            box-shadow: 0 0 2px #666;
 }
 
 .gslb .gsjs {
@@ -125,7 +152,8 @@
     width: 58%;
     height: 70px;
     margin-left: 70px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     -webkie-box-sizing: border-box;
 }
 
@@ -135,10 +163,14 @@
     color: #333;
     line-height: 25px;
     overflow: hidden;
-    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+       text-overflow:ellipsis;
     white-space: nowrap;
 }
-
+.gslb .gsjs p.address {
+    color:#666;
+    line-height:20px;
+}
 .gslb .gsjs span {
     display: block;
     width: 100%;
@@ -198,18 +230,34 @@
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
     width: 100%;
     height: 30px;
     font-size: 12px;
-    line-height: 30px;
+    line-height: 29px;
     text-align: center;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #f89406;
+    color: #f89406;
+    border: 1px solid #f89406;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    /*background-color: #f89406;*/
+}
+@-webkit-keyframes btn {
+    0%{
+        border-radius: 0px;
+    }
+    25%{
+        border-radius: 10px;
+    }
+    50%{
+        border-radius: 15px;
+    }
+    75%{
+        border-radius: 10px;
+    }
+    100%{
+        border-radius: 0px;
+    }
 }
 @keyframes btn {
     0%{
@@ -243,7 +291,8 @@
     line-height: 40px;
     color: #333;
     float: left;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #ccc;
     margin: 0 1%;
 }
@@ -281,13 +330,14 @@
     width: 100%;
     height: 35px;
     border-collapse: collapse;
-    margin: 20px 0 15px;
+    margin: 10px 0 15px;
 }
 
 .lanmu li {
     width: 32%;
     height: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #e4e4e4;
     float: left;
     text-align: center;
@@ -295,6 +345,7 @@
     margin-right: -1px;
     color: #666;
     -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
     margin-left:2%;
 }
@@ -308,7 +359,8 @@
     width: 15px;
     height: 15px;
     position: absolute;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #e4e4e4;
     border-top: none;
     border-left: none;
@@ -317,7 +369,8 @@
     left: 42%;
     bottom: -8px;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 
 .lanmu li:last-child {
@@ -350,7 +403,8 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-bottom: 10px;
 }
 .lanmubox ul.address li{
@@ -363,6 +417,112 @@
     height: 100%;
     color: #333;
 }
-
-
 /*栏目*/
+
+
+form.apply{
+    width:95%;
+    height:auto;
+    margin:15px auto;
+    border-radius:8px;
+    border:1px solid #dcdcdc;
+}
+.form_head{
+    border-bottom: 1px dashed #dcdcdc;
+    position:relative;
+    padding-bottom: 15px;
+}
+.form_head:before,.form_head:after{
+    content:'';
+    display:block;
+    position:absolute;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color:#FFF;
+    border:1px solid #dcdcdc;
+    -webkit-transform:translate(-50%,50%) rotate(45deg);
+        -ms-transform:translate(-50%,50%) rotate(45deg);
+            transform:translate(-50%,50%) rotate(45deg);
+}
+.form_head:before{
+    border-bottom:0;
+    border-left:0;
+    bottom:0;
+    left:2px;
+}
+.form_head:after{
+    bottom: 0;
+    right:-14px;
+    border-top:0;
+    border-right:0;
+}
+.form_head h2{
+    font-size: 18px;
+    text-align:center;
+    font-weight: normal;
+    height:55px;
+    margin-bottom:5px;
+    line-height: 45px;
+    color:#FFF;
+    background: url(../../../images/wap/v1/22_biankuang1.png) no-repeat;
+    background-size:contain;
+}
+.form_head p{
+    color:#999;
+    line-height: 40px;
+    text-indent:1em;
+    font-size:14px;
+    position:relative;
+}
+.form_head p:before{
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;
+    top:10px;
+    height:20px;
+    width:5px;
+    background-color:#5dbfc3;
+}
+.form_body{
+    padding:20px 15px 10px;
+    text-align:center;
+}
+.form_body input,.form_body select{
+    color:#666;
+    width:90%;
+    height: 40px;
+    line-height:40px;
+    font-size:16px;
+    margin:10px auto;
+    outline:none;
+    border-radius:3px;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+         appearance:none;
+    border:1px solid #E5E5E5;
+    background-color:#FFF;
+    text-indent:1em;
+}
+.form_body button{
+    background-color:#ff9900;
+    color:#FFF;
+    outline:none;
+    border-radius:3px;
+    width:90%;
+    height: 40px;
+    line-height:40px;
+    font-size:16px;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+         appearance:none;
+    border:none;
+}
+.form_foot{
+    width:100%;
+    height:30px;
+    background:url(../../../images/wap/v1/22_biankuang2.png) no-repeat bottom center;
+    background-size:contain;
+}
+/* 申请表单 */
