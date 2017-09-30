@@ -39,7 +39,8 @@ body {
   width: 95%;
   left: 50%;
   -webkit-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
+          -ms-transform: translate(-50%, 0%);
+      transform: translate(-50%, 0%);
   font-size: 0;
 }
 .banner ul li {
@@ -105,6 +106,7 @@ body {
   -webkit-appearance: none;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .form form input:focus {
@@ -117,7 +119,8 @@ body {
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+          -ms-transform: translate(-50%, 50%);
+      transform: translate(-50%, 50%);
   width: 100px;
   height: 100px;
   padding: 20px;
@@ -207,7 +210,8 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
 }
 .customer_box .customer div {
   display: inline-block;
@@ -215,7 +219,8 @@ body {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
 }
 .customer_box .customer div span {
   display: inline-block;
@@ -265,7 +270,8 @@ body {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+          -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
 }
 .sheng article div h7 {
   color: #00b377;

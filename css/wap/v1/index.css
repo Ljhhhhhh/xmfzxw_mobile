@@ -1,0 +1,473 @@
+.headerleft .logo {
+  float: right;
+}
+.hr {
+  height: 3px;
+  background-color: #eee;
+  width: 100%;
+  margin: 10px auto;
+}
+#modal {
+  top: inherit;
+}
+h1.biaoti {
+  text-indent: 0.8em;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 15px;
+  position: relative;
+}
+h1.biaoti::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 7px;
+  background-color: #009a59;
+}
+h1.biaoti a {
+  display: block;
+  float: right;
+  color: #666;
+  font-size: 14px;
+}
+h1.biaoti span {
+  display: block;
+  float: right;
+  color: #666;
+  font-size: 12px;
+}
+h1.biaoti span strong {
+  font-weight: normal;
+  color: red;
+}
+/*报价神器*/
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swiper-container img {
+  width: 100%;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+.swiper-pagination-bullet-active {
+  background-color: #f0003e!important;
+}
+.carousel-indicators {
+  bottom: -10px;
+}
+/*swiper*/
+.fenlei {
+  margin-top: 15px;
+}
+.fenlei li {
+  padding: 0;
+  text-align: center;
+}
+.fenlei li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  font-weight: 300;
+}
+.fenlei li a strong {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url("../../../images/wap/v1/index_sprite.png") no-repeat;
+  background-size: 207px;
+}
+.fenlei li a span {
+  display: block;
+}
+.fenlei li:nth-child(1) a strong {
+  background-position: -72px -445px;
+}
+.fenlei li:nth-child(2) a strong {
+  background-position: 0 -517px;
+}
+.fenlei li:nth-child(3) a strong {
+  background-position: -71px -517px;
+}
+.fenlei li:nth-child(4) a strong {
+  background-position: 0 -445px;
+}
+/*圆分类*/
+.fang_fenlei [class^="col-xs"] {
+  padding: 0;
+}
+.fang_fenlei .big_fang a {
+  display: block;
+  width: 100%;
+  height: aut0;
+}
+.fang_fenlei .big_fang a img {
+  width: 100%;
+  height: auto;
+}
+.fang_fenlei .small_fang a {
+  display: block;
+  width: 100%;
+  height: aut0;
+}
+.fang_fenlei .small_fang a img {
+  width: 100%;
+  height: auto;
+}
+/* 方分类 */
+.zzx ul.zxgs_list {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+.zzx ul.zxgs_list::-webkit-scrollbar {
+  display: none;
+}
+.zzx ul.zxgs_list li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 10px 0;
+  -webkit-box-shadow: 0 0 10px 1px #E5E5E5;
+          box-shadow: 0 0 10px 1px #E5E5E5;
+}
+.zzx ul.zxgs_list li:last-child {
+  margin-right: 0;
+}
+.zzx ul.zxgs_list li a {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+.zzx ul.zxgs_list li a .img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.zzx ul.zxgs_list li a .img img {
+  width: 100%;
+  height: auto;
+}
+.zzx ul.zxgs_list li a h2 {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 10px auto 0;
+}
+.zzx ul.zxgs_list li a p {
+  color: #666;
+  font-weight: 300;
+  margin: 0;
+}
+.zzx ul.zxgs_list li a p strong {
+  color: red;
+  font-weight: 300;
+}
+.zzx ul.zxgs_list li a span {
+  display: block;
+  margin: 5px auto;
+  color: #FFF;
+  background-color: #f39800;
+  border-radius: 15px;
+  width: 75%;
+  padding: 5px;
+}
+/* 找装修 */
+.tab_control {
+  width: 100%;
+  height: auto;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.tab_control span {
+  color: #666;
+  text-align: center;
+  cursor: pointer;
+}
+.tab_control span.active {
+  color: #009a59;
+  background: -webkit-gradient(linear, right top, left top, from(#009a59), to(#009a59)) no-repeat center bottom;
+  background: linear-gradient(to left, #009a59, #009a59) no-repeat center bottom;
+  background-size: 30% 2px;
+}
+.tab_contents {
+  height: auto;
+}
+.tab_contents .tab_content {
+  display: none;
+}
+.tab_contents .tab_content:first-child {
+  display: block;
+}
+/* 栏目切换 */
+#ksj ul.tab_content {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+#ksj ul.tab_content::-webkit-scrollbar {
+  display: none;
+}
+#ksj ul.tab_content li {
+  display: inline-block;
+  margin-right: 15px;
+  width: 120px;
+  height: 160px;
+}
+#ksj ul.tab_content li a {
+  display: block;
+  width: 120px;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+#ksj ul.tab_content li a img {
+  width: 100%;
+  height: auto;
+}
+#ksj ul.tab_content li a .miaoshu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+#ksj ul.tab_content li a .miaoshu h3 {
+  font-size: 16px;
+  color: #333;
+  font-weight: 300;
+  color: #FFF;
+  margin: 0;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background: -webkit-gradient(linear, right top, left top, from(#ffffff), to(#ffffff)) no-repeat;
+  background: linear-gradient(to left, #ffffff, #ffffff) no-repeat;
+  background-position: center bottom;
+  background-size: 50% 2px;
+}
+#ksj ul.tab_content li a .miaoshu p {
+  font-size: 14px;
+  color: #FFF;
+  margin: 0;
+}
+/* 看设计 */
+#kgl ul.tab_content {
+  margin: 0;
+  text-align: center;
+}
+#kgl ul.tab_content li {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+#kgl ul.tab_content li a {
+  display: block;
+  width: 100%;
+  height: 180px;
+  text-decoration: none;
+}
+#kgl ul.tab_content li a span.img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#kgl ul.tab_content li a span.img img {
+  width: 100%;
+  height: 100%;
+}
+#kgl ul.tab_content li a h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  line-height: 30px;
+  text-align: left;
+}
+#kgl ul.tab_content li a p {
+  font-size: 12px;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-indent: 1em;
+  margin-bottom: 0;
+}
+#kgl ul.tab_content a.more {
+  display: inline-block;
+  width: 70%;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #EEE;
+  border-radius: 15px;
+  color: #666;
+  text-decoration: none;
+}
+/* 看攻略 */
+#mfsj .ysq_list {
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+}
+#mfsj .ysq_list ul {
+  width: 100%;
+  height: auto;
+}
+#mfsj .ysq_list ul li {
+  line-height: 30px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+#mfsj .ysq_list ul li span {
+  display: inline-block;
+  padding: 0 10px;
+  color: #999;
+}
+#mfsj form {
+  width: 80%;
+  height: auto;
+  margin: -5px auto 15px;
+  font-size: 0;
+}
+#mfsj form input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px auto;
+  outline: none;
+  background: none;
+  text-indent: 1em;
+  font-size: 12px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #AAA;
+          box-shadow: 0 0 5px #AAA;
+  border: none;
+}
+#mfsj form select {
+  width: 48%;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px auto;
+  outline: none;
+  background: none;
+  border: none;
+  text-indent: 1em;
+  font-size: 12px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #AAA;
+          box-shadow: 0 0 5px #AAA;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+#mfsj form select:nth-child(3) {
+  margin-right: 4%;
+}
+#mfsj form .btn-success {
+  margin-top: 10px;
+  background-color: #009a59;
+  border-color: #11925c;
+}
+/* 免费设计 */
+#ysdb img {
+  width: 100%;
+  height: auto;
+}
+/* 优势对比 */
+.rmcs {
+  background-color: #eee;
+}
+.rmcs h1 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+.rmcs p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.rmcs p span {
+  color: #666;
+}
+.rmcs ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+.rmcs ul li a {
+  color: #333;
+}
+/* 热门城市 */
+.lxwm {
+  padding: 0;
+}
+.lxwm p {
+  font-size: 16px;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.lxwm p em {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  font-style: normal;
+  background-color: #3ED482;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+}
+.lxwm p em:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #3ED482;
+  top: 50%;
+  right: -10px;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+.lxwm p a {
+  width: 60%;
+  height: 100%;
+  color: #3ED482;
+  display: inline-block;
+  padding-left: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/* 联系我们 */

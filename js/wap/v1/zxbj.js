@@ -59,7 +59,6 @@ $(function () {
                 mobile:mobile
             },
             success:function(data){
-                alert("申请成功");
                 console.log(data);
             },
             error:function(){

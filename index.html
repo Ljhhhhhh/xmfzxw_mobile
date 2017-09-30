@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>报价神器</title>
+    <link rel="stylesheet" href="css/wap/v1/common.css">
+    <link rel="stylesheet" href="API/Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="API/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/wap/v1/index.css">
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=931d081122d6c5ff0b32ed70b413d412"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="header">
+        <div class="headerleft pl">
+            <a href="" class="bjsq_logo_link"><i class="icon-map-marker red"></i> 宁波<em>[切换]</em></a>
+            <div class="logo bjsq_logo"><img src="images/wap/v1/logo.png" alt=""></div>
+        </div>
+        <div class="headerright pr">
+            <div class="user">
+                <a href=""></a>
+            </div>
+            <div class="search">
+                <a href="" class="glyphicon glyphicon-menu-hamburger"></a>
+            </div>
+        </div>
+    </div>
+    <div class="search-menu" id="search-menu">
+        <ul>
+            <li><a href=""><strong></strong><span>首页</span></a></li>
+            <li><a href=""><strong></strong><span>效果图库</span></a></li>
+            <li><a href=""><strong></strong><span>装修攻略</span></a></li>
+            <li><a href=""><strong></strong><span>装修公司</span></a></li>
+            <li><a href=""><strong></strong><span>装修报价</span></a></li>
+            <li><a href=""><strong></strong><span>找设计师</span></a></li>
+            <li><a href=""><strong></strong><span>免费量房</span></a></li>
+            <li><a href=""><strong></strong><span>电话咨询</span></a></li>
+        </ul>
+    </div>
+    <!--头部-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/wap/v1/index/banner01.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/wap/v1/index/banner01.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/wap/v1/index/banner01.png" alt="...">
+            </div>
+        </div>
+    </div>
+    <!--    swiper-->
+    <div class="clear"></div>
+    <ul class="container fenlei">
+        <li class="col-xs-3"><a href=""><strong></strong><span>装修案例</span></a></li>
+        <li class="col-xs-3"><a href=""><strong></strong><span>找设计师</span></a></li>
+        <li class="col-xs-3"><a href=""><strong></strong><span>免费量房</span></a></li>
+        <li class="col-xs-3"><a href=""><strong></strong><span>查看攻略</span></a></li>
+    </ul>
+    <hr class="hr">
+    <!--    圆形分类-->
+    <div class="container fang_fenlei">
+        <div class="col-xs-6 big_fang">
+            <a href=""><img src="images/wap/v1/big_fang1.png"></a>
+        </div>
+        <div class="col-xs-6 small_fang">
+            <div class="col-xs-12">
+                <a href=""><img src="images/wap/v1/big_fang2.png"></a></a>
+            </div>
+            <div class="col-xs-12">
+                <a href=""><img src="images/wap/v1/big_fang3.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <!-- 方导航 -->
+    <div class="zzx container">
+        <h1 class="biaoti">本地找装修<a>更多&gt;</a></h1>
+        <ul class="zxgs_list">
+            <li>
+                <a href="http://">
+                    <div class="img"><img data-original="images/wap/v1/zxgs_list_temp.jpg" alt=""></div>
+                    <h2>鲁班精工装饰</h2>
+                    <p><strong>2333人</strong>已咨询</p>
+                    <span>查看公司</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://">
+                    <div class="img"><img data-original="images/wap/v1/zxgs_list_temp.jpg" alt=""></div>
+                    <h2>鲁班精工装饰</h2>
+                    <p><strong>2333人</strong>已咨询</p>
+                    <span>查看公司</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://">
+                    <div class="img"><img data-original="images/wap/v1/zxgs_list_temp.jpg" alt=""></div>
+                    <h2>鲁班精工装饰</h2>
+                    <p><strong>2333人</strong>已咨询</p>
+                    <span>查看公司</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://">
+                    <div class="img"><img data-original="images/wap/v1/zxgs_list_temp.jpg" alt=""></div>
+                    <h2>鲁班精工装饰</h2>
+                    <p><strong>2333人</strong>已咨询</p>
+                    <span>查看公司</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr class="hr">
+    <!-- 找装修 -->
+    <div class="container" id="ksj">
+        <h1 class="biaoti">看设计<a href="">更多&gt;</a></h1>
+        <div class="tab_control row">
+            <span class="col-xs-4 active">看空间</span>
+            <span class="col-xs-4">看风格</span>
+            <span class="col-xs-4">看局部</span>
+        </div>
+        <div class="tab_contents">
+            <ul class="tab_content">
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+            </ul>
+            <ul class="tab_content">
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅1</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅1</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅1</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅1</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+            </ul>
+            <ul class="tab_content">
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅2</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅2</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅2</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                    <img data-original="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507337980&di=02c887eef6e28e884d62ee647c96e0ba&imgtype=jpg&er=1&src=http%3A%2F%2Fimgk.zol.com.cn%2Flenovo%2F3084%2Fa3083445.jpg" alt=""><!-- 120*160的比例 -->
+                    <div class="miaoshu">
+                        <h3>客厅2</h3>
+                        <p>56233张</p>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <hr class="hr">
+    <!-- 看设计 -->
+    <div class="container" id="kgl">
+        <h1 class="biaoti">看攻略<a href="">更多&gt;</a></h1>
+        <div class="tab_control row">
+            <span class="col-xs-4 active">装修流程</span>
+            <span class="col-xs-4">装修百科</span>
+            <span class="col-xs-4">装修风水</span>
+        </div>
+        <div class="tab_contents row">
+            <ul class="tab_content row">
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <a href="" class="more">查看更多流程&raquo;</a>
+            </ul>
+            <ul class="tab_content row">
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>1毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>1毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <a href="" class="more">查看更多百科&raquo;</a>
+            </ul>
+            <ul class="tab_content row">
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>2毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>2毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/23/sjfn23.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <li class="col-xs-6">
+                    <a href="">
+                            <span class="img">
+                                <img data-original="images/wap/v1/02.jpg" alt="">
+                            </span>
+                            <h2>毛胚房验房的详细流程</h2>
+                            <p>不管是买新房还是买二手房，都是需要验房的不管是买新房还是买二手房，都是需要验房的。</p>
+                        </a>
+                </li>
+                <a href="" class="more">查看更多风水&raquo;</a>
+            </ul>
+        </div>
+    </div>
+    <hr class="hr">
+    <!-- 看攻略 -->
+    <div class="container" id="mfsj">
+        <h1 class="biaoti">免费获取设计<span>已有<strong>575161</strong>人获取免费设计</span></h1>
+        <div class="ysq_list container" id="ysq_list">
+            <ul>
+                <li><span>1分钟前</span><span>余女生</span><span>获取了免费设计</span></li>
+                <li><span>5分钟前</span><span>李女生</span><span>获取了免费设计</span></li>
+                <li><span>2分钟前</span><span>张先生</span><span>获取了免费设计</span></li>
+                <li><span>10分钟前</span><span>王女生</span><span>获取了免费设计</span></li>
+                <li><span>3分钟前</span><span>高先生</span><span>获取了免费设计</span></li>
+                <li><span>2分钟前</span><span>王先生</span><span>获取了免费设计</span></li>
+                <li><span>6分钟前</span><span>吴女生</span><span>获取了免费设计</span></li>
+                <li><span>7分钟前</span><span>李先生</span><span>获取了免费设计</span></li>
+                <li><span>4分钟前</span><span>卢先生</span><span>获取了免费设计</span></li>
+                <li><span>1分钟前</span><span>黄女生</span><span>获取了免费设计</span></li>
+            </ul>
+        </div>
+        <form action="">
+            <input type="text" name="" id="name" placeholder="您的称呼">
+            <input type="number" name="" id="mobile" placeholder="您的手机号码">
+            <select name="" id="province">
+                <option value="" selected="selected" disabled>选择省份</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+            <select name="" id="city">
+                    <option value="" selected="selected" disabled>选择市区</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            <input type="hidden" name="" id="map_address">
+            <button class="btn btn-success center-block" id="mfsj_btn">免费获取3份设计方案</button>
+        </form>
+        <p class="text-danger"><span class="glyphicon glyphicon-flag"></span> 我们承诺：小蜜蜂装修网提供该项免费服务，绝不产生任何费用，为了您的利益以及我们的口碑，您的隐私将被严格保密。</p>
+        <!-- 已申请列表 -->
+    </div>
+    <hr class="hr">
+    <!-- 免费获取设计 -->
+    <div class="container" id="ysdb">
+        <h1 class="biaoti">优势对比</h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="images/wap/v1/ysdb.png" alt="">
+            </div>
+        </div>
+    </div>
+    <hr class="hr">
+    <!-- 优势对比 -->
+    <div class="lxwm container-fluid">
+        <p><em>装修咨询电话</em><a href="tel:15257897470"><span class="glyphicon glyphicon-earphone"></span>15257897470</a></p>
+    </div>
+    <!-- 联系电话 -->
+    <div class="rmcs container">
+        <h1>热门城市</h1>
+        <p><span class="glyphicon glyphicon-option-horizontal"></span></p>
+        <ul class="row">
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+            <li class="col-xs-3"><a href="http://">杭州装修</a></li>
+        </ul>
+    </div>
+    <!-- 热门城市 -->
+    <!-- 表单模态框 -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="modal">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">友情提示</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 表单模态框 -->
+    <!-- 联系我们模态框 -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="lxwm_modal">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">联系我们</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="tel:15257897470" class="by_mobile"><strong></strong><span>电话咨询</span></a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="" class="by_shangwu"><strong></strong><span>在线资讯</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 联系我们模态框 -->
+    <!--页脚-->
+    <div class="footer clearfix">
+        <!-- <ul>
+            <li><a href="" class="noborder on">触屏版</a></li>
+            <li><a href="">电脑版</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">常见问题</a></li>
+        </ul> -->
+        <p>Copyright &copy; 2015-2017 小蜜蜂装修网</p>
+        <div class="footerwz">浙ICP备15041897号-1</div>
+    </div>
+    <!--页脚-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/wap/v1/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="API/bootstrap/js/bootstrap.min.js"></script>
+    <script src="API/swiper/swiper.jquery.min.js" type="text/javascript"></script>
+    <script src="js/wap/v1/common.js" type="text/javascript"></script>
+    <script src="API/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="js/wap/v1/index.js" type="text/javascript"></script>
+    <!--地图定位插件start-->
+    <script>
+        var map, geolocation;
+        //加载地图，调用浏览器定位服务
+        map = new AMap.Map('container', {
+            resizeEnable: true
+        });
+        map.plugin('AMap.Geolocation', function () {
+            geolocation = new AMap.Geolocation({
+                enableHighAccuracy: true,
+                timeout: 10000,
+                buttonOffset: new AMap.Pixel(10, 20),
+                zoomToAccuracy: true,
+                buttonPosition: 'RB',
+            });
+            map.addControl(geolocation);
+            geolocation.getCurrentPosition();
+            AMap.event.addListener(geolocation, 'complete', onComplete); //返回定位信息
+            AMap.event.addListener(geolocation, 'error', onError); //返回定位出错信息
+        });
+        //解析定位结果
+        function onComplete(data) {
+            //alert(data.formattedAddress);
+            // $("#demo1").val(data.formattedAddress);
+            $("#map_address").val(data.formattedAddress);
+        }
+        //解析定位错误信息
+        function onError(data) {}
+    </script>
+    <!--地图定位插件end-->
+</body>
+
+</html>
